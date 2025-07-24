@@ -7,6 +7,24 @@ A multi-agent system using Google ADK, Vertex AI, and BigQuery to evaluate, exec
 - Masking Agent: Detects and anonymizes Personally Identifiable Information (PII) using Google Cloud DLP.
 
 ## Getting Started
+### Set Data in BigQuery Through UI
+
+**Step 1: Download from Hugging Face**
+- Go to Hugging Face: [Walmart Sales Dataset](https://huggingface.co/datasets/large-traversaal/Walmart-sales/tree/main)
+- Click on the **"Files and versions"** tab
+- Download the `train.csv` file and save it to your computer
+
+**Step 2: Upload to BigQuery**
+- Go to [BigQuery Console](https://console.cloud.google.com/bigquery)
+- Select your project
+- Click **"Create Dataset"**
+- Set a Dataset ID (e.g., `walmart_sales`) and create it
+- Click the newly created dataset and then click **"Create Table"**
+- Choose **"Upload"** as the source
+- Select your downloaded `train.csv` file
+- Name your table (e.g., `sales_table`)
+- Click **"Create Table"**
+  
 ### Install Dependencies
 for python 3.10 or above
 ```python
