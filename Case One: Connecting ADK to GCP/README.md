@@ -17,6 +17,12 @@ Replace `<PROJECT_ID>`, `<DATASET_NAME>`, and `<DATASET_TABLE>` in the files wit
 ### Enable API
 Enable `Google Cloud DLP` API on Google Cloud [Link](https://cloud.google.com/sensitive-data-protection/docs/reference/rest).
 
+### BigQuerry Walmart Sales
+Walmart Sales dataset is available at the [link](https://huggingface.co/datasets/large-traversaal/Walmart-sales/tree/main). Download test.csv and make BigQuerry table with following details:
+- Dataset name: walmart_sales
+- Table name: sales_table
+  Update <Project_ID> which your google cloud project name, <DATASET_NAME>, and <DATASET_TABLE> in `test_server.py`. Similarly update <Project_ID> in `test_client.py`. 
+
 ### Run the Client
 ```python
 python test_client.py
