@@ -12,3 +12,29 @@ A multi-agent system using Google ADK, Vertex AI, and BigQuery to evaluate, exec
 ```python
 pip install -r requirements.txt
 ```
+### Set Environment Variables
+Replace `<PROJECT_ID>`, `<DATASET_NAME>`, and `<DATASET_TABLE>` in the files with your actual Google Cloud values.
+
+#### Run the Client
+```python
+python test_client.py
+```
+You will be prompted to enter a natural language query (Try, "What is the average weekly sales for Dept 1 in Store 1?").
+
+## Core Components
+Security Evaluation:
+- Uses pattern matching and decoding to detect SQL injection, XSS, obfuscated code, and more.
+- Implemented via evaluate_prompt() in utils.py.
+
+SQL Execution
+- Uses MCPToolset and a query_data tool to securely run SQL queries on BigQuery 
+
+Data Masking
+- Uses Google DLP to redact sensitive information such as names, phone numbers, and credit card data
+
+## File Structure
+├── test_client.py        # Main orchestration: security → SQL → masking
+├── test_server.py        # MCP server exposing SQL tools to the agent
+├── utils.py              # Security evaluator and DLP masking logic
+├── requirements.txt      # All required dependencies
+└── README.md             # You are here
