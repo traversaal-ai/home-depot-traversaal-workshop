@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ### Set Environment Variables
 Replace `<PROJECT_ID>`, `<DATASET_NAME>`, and `<DATASET_TABLE>` in the files with your actual Google Cloud values.
 
-#### Run the Client
+### Run the Client
 ```python
 python test_client.py
 ```
@@ -30,6 +30,10 @@ SQL Execution
 
 Data Masking
 - Uses Google DLP to redact sensitive information such as names, phone numbers, and credit card data
+
+## Architecture Overview
+![a2a_mcp](https://github.com/user-attachments/assets/9d796fdd-30fe-446c-a7b3-c6a1e83e329a)
+
 
 ## File Structure
 ```bash
