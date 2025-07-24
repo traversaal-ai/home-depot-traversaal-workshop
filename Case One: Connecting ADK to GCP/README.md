@@ -15,7 +15,7 @@ pip install -r requirements.txt
 Replace `<PROJECT_ID>`, `<DATASET_NAME>`, and `<DATASET_TABLE>` in the files with your actual Google Cloud values.
 
 ### Enable API
-
+Enable `Google Cloud DLP` API on Google Cloud [Link](https://cloud.google.com/sensitive-data-protection/docs/reference/rest).
 
 ### Run the Client
 ```python
