@@ -8,6 +8,7 @@ A multi-agent system using Google ADK, Vertex AI, and BigQuery to evaluate, exec
 
 ## Getting Started
 ### Install Dependencies
+for python 3.10 or above
 ```python
 pip install -r requirements.txt
 ```
