@@ -33,11 +33,20 @@ pip install -r requirements.txt
 ### Enable API
 Enable `Google Cloud DLP` API on Google Cloud [Link](https://cloud.google.com/sensitive-data-protection/docs/reference/rest).
 
-### BigQuerry Walmart Sales
-Walmart Sales dataset is available at the [link](https://huggingface.co/datasets/large-traversaal/Walmart-sales/tree/main). Download test.csv and make BigQuerry table with following details:
-- Dataset name: walmart_sales
-- Table name: sales_table
-  Update <Project_ID> which your google cloud project name, <DATASET_NAME>, and <DATASET_TABLE> in `test_server.py`. Similarly update <Project_ID> in `test_client.py`. 
+### Update the files
+Go into `test_client.py` and update with your own key:
+```python
+os.environ["GOOGLE_CLOUD_PROJECT"] = "<PROJECT_ID>"
+```
+
+Now go into `test_server.py` and update with your own Google Cloud details:
+```python
+os.environ["GOOGLE_CLOUD_PROJECT"] = "<PROJECT_ID>"
+
+PROJECT_ID = "<PROJECT_ID>"
+DATASET_ID = "<DATASET_NAME>" # walmart_sales
+TABLE_ID = "<DATASET_TABLE>" # sales_table
+```
 
 ### Run the Client
 ```python
