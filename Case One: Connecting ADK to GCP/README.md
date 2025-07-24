@@ -25,7 +25,7 @@ A multi-agent system using Google ADK, Vertex AI, and BigQuery to evaluate, exec
 - Name your table (e.g., `sales_table`)
 - Click **"Create Table"**
   
-### Install Dependencies
+### Install Dependencies in your Google Cloud Workbench
 for python 3.10 or above
 ```python
 pip install -r requirements.txt
