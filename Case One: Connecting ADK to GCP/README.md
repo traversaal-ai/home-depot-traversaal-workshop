@@ -27,7 +27,7 @@ Walmart Sales dataset is available at the [link](https://huggingface.co/datasets
 ```python
 python test_client.py
 ```
-You will be prompted to enter a natural language query (Try, "What is the average weekly sales for Dept 1 in Store 1?").
+You will be prompted to enter a natural language query (Try, "What is the total sales for Dept 1 in Store 1?").
 
 ## Core Components
 Security Evaluation:
