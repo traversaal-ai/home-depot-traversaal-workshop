@@ -39,4 +39,4 @@ Components
 - Multi-turn Reasoning: Understands, recalls, and resolves complex customer queries.
 
 ## About the Workshop
-Led by the Traversaal AI team, this workshop bridges the gap between theory and practice in the world of large language models (LLMs) and multi-agent systems—specifically within Google Cloud’s Agent Development Kit (ADK).
+Led by the Traversaal AI team, this workshop bridges the gap between theory and practice in the world of large language models (LLMs) and multi-agent systems, specifically within Google Cloud’s Agent Development Kit (ADK).
