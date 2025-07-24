@@ -37,3 +37,6 @@ Components
 - Memory Assistant: Remembers customer data across sessions for contextual help.
 - Policy RAG: Dynamically generated from transcripts to answer questions without hardcoding logic trees.
 - Multi-turn Reasoning: Understands, recalls, and resolves complex customer queries.
+
+## About the Workshop
+Led by the Traversaal AI team, this workshop bridges the gap between theory and practice in the world of large language models (LLMs) and multi-agent systems—specifically within Google Cloud’s Agent Development Kit (ADK).
