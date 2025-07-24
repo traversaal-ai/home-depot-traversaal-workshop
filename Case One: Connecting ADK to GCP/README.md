@@ -14,6 +14,9 @@ pip install -r requirements.txt
 ### Set Environment Variables
 Replace `<PROJECT_ID>`, `<DATASET_NAME>`, and `<DATASET_TABLE>` in the files with your actual Google Cloud values.
 
+### Enable API
+
+
 ### Run the Client
 ```python
 python test_client.py
