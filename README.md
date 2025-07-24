@@ -1,1 +1,1 @@
-# home-depot-workshop
+# Home Depot Traversaal Workshop
