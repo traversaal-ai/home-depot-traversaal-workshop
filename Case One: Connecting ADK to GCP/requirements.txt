@@ -14,3 +14,5 @@ fastapi==0.116.1
 
 # Optional: typing support for Python <3.9
 typing-extensions>=4.0.0
+
+fastmcp
