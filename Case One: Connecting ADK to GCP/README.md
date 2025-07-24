@@ -24,14 +24,18 @@ A multi-agent system using Google ADK, Vertex AI, and BigQuery to evaluate, exec
 - Select your downloaded `train.csv` file
 - Name your table (e.g., `sales_table`)
 - Click **"Create Table"**
-  
+
+### Enable API
+Enable `Google Cloud DLP` API on Google Cloud [Link](https://cloud.google.com/sensitive-data-protection/docs/reference/rest).
+
 ### Install Dependencies in your Google Cloud Workbench
 for python 3.10 or above
+- git clone "https://github.com/traversaal-ai/home-depot-traversaal-workshop.git"
+- cd "home-depot-traversaal-workshop"
+- cd "Case One: Connecting ADK to GCP"
 ```python
 pip install -r requirements.txt
 ```
-### Enable API
-Enable `Google Cloud DLP` API on Google Cloud [Link](https://cloud.google.com/sensitive-data-protection/docs/reference/rest).
 
 ### Update the files
 Go into `test_client.py` and update with your own key:
