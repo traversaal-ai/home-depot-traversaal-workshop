@@ -33,8 +33,10 @@ Data Masking
 - Uses Google DLP to redact sensitive information such as names, phone numbers, and credit card data
 
 ## File Structure
+```bash
 ├── test_client.py        # Main orchestration: security → SQL → masking
 ├── test_server.py        # MCP server exposing SQL tools to the agent
 ├── utils.py              # Security evaluator and DLP masking logic
 ├── requirements.txt      # All required dependencies
 └── README.md             # You are here
+```
