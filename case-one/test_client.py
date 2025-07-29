@@ -17,6 +17,10 @@ warnings.filterwarnings("ignore")
 # Set the root logger to only show ERROR (hide INFO/WARNING)
 logging.basicConfig(level=logging.ERROR)
 
+PROJECT_ID = "<PROJECT_ID>"
+DATASET_ID = "<DATASET_NAME>"
+TABLE_ID = "<DATASET_TABLE>"
+
 
 os.environ["GOOGLE_GENAI_USE_VERTEXAI"] = "True"
 os.environ["GOOGLE_CLOUD_PROJECT"] = "<PROJECT_ID>"
@@ -89,8 +93,8 @@ async def main():
         sql_agent = LlmAgent(
             model='gemini-2.5-flash',
             name='sql_assistant',
-            instruction="""
-            You are an expert SQL analyst working with a `traversaal-research.walmart_sales_12345.walmart_sales_table` table.
+            instruction=f"""
+            You are an expert SQL analyst working with a `{PROJECT_ID}.{DATASET_ID}.{TABLE_ID}` table.
             Database columns: Store (INTEGER), Dept (INTEGER), Date (DATE), Weekly_Sales (FLOAT), IsHoliday (BOOLEAN)
             
             Generate SQL query in single sentence based on user request and execute the query using query_data tool. You must use tool to execute.

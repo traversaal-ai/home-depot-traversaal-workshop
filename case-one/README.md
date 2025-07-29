@@ -41,6 +41,11 @@ pip install -r requirements.txt
 Go into `test_client.py` and update with your own key:
 ```python
 os.environ["GOOGLE_CLOUD_PROJECT"] = "<PROJECT_ID>"
+
+PROJECT_ID = "<PROJECT_ID>"
+DATASET_ID = "<DATASET_NAME>" # walmart_sales
+TABLE_ID = "<DATASET_TABLE>" # sales_table
+
 ```
 
 Now go into `test_server.py` and update with your own Google Cloud details:
