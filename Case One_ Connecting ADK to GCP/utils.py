@@ -71,7 +71,7 @@ def mask_sensitive_data(project_id, text):
     # Construct the item to inspect
     item = {
         "byte_item": {
-            "_type": "TEXT_UTF8",
+            "type": "TEXT_UTF8",
             "data": text.encode('utf-8')
         }
     }
