@@ -1,0 +1,47 @@
+﻿Delivery Risk Model Feature (as listed in the column DLVRY_RISK_TOP_FEATURE),Description
+BUILDING_MATERIALS_CNT,"Whether order contains building material product (SKU): 1=Yes, 0=No"
+CUBEFT,Delivery volume in cubic foot
+CUST_NOTES_CNT,Number of customer notes associated with the customer order
+CUST_ORD_TOTAL,Total sales amount for the customer order (some products of which may not be part of this delivery)
+DWLG_TYP_APARTMENT,"Whether the destination is an apartment: 1=Yes, 0=No"
+DWLG_TYP_CONDOMINIUM,"Whether the destination is a condo: 1=Yes, 0=No"
+DWLG_TYP_OTHER,"Whether the destination is of other dwelling type: 1=Yes, 0=No"
+DWLG_TYP_RESIDENTIAL OTHER,"Whether the destination is of other residential type: 1=Yes, 0=No"
+DWLG_TYP_SINGLE FAMILY RESIDENCE,"Whether the destination is a single family house: 1=Yes, 0=No"
+DWLG_TYP_TOWNHOUSE/OTHER ATTACHED RESIDENCE,"Whether the destination is a townhouse/other attached residence: 1=Yes, 0=No"
+ELECTRICAL_CNT,"Whether order contains electrical product (SKU): 1=Yes, 0=No"
+FLOORING_CNT,"Whether order contains flooring product (SKU): 1=Yes, 0=No"
+GARDEN_CNT,"Whether order contains gardening product (SKU): 1=Yes, 0=No"
+HARDWARE_CNT,"Whether order contains hardware product (SKU): 1=Yes, 0=No"
+IS_ADDRESS_ISSUE,"Whether there were address-related issues in the past driver notes (such as wrong address, lack of access code to destination, etc.): 1=Yes, 0=No"
+IS_CALL_REQUESTED,"Whether a phone call was requested in the delivery instructions: 1=Yes, 0=No"
+IS_DRIVEWAY_ISSUE,"Whether there were driveway related issues reported in the past driver notes: 1=Yes, 0=No"
+IS_INSTALL_ORDER,"Whether part of the customer order is for installation: 1=Yes, 0=No"
+IS_SPECIFIC_DLVRY_WINDOW,"Whether this delivery has premium time window: 1=Yes, 0=No"
+IS_SPL_ORD,"Whether this delivery contains product (SKU) via special order: 1=Yes, 0=No"
+KITCHEN_CNT,"Whether the order contains kitchen product (SKU): 1=Yes, 0=No"
+LAND_USE_TYP_COMMERCIAL,"Whether the destination's land use type is commercial: 1=Yes, 0=No"
+LAND_USE_TYP_EXEMPT,"Whether the destination's land use type is exempt: 1=Yes, 0=No"
+LAND_USE_TYP_INDUSTRIAL,"Whether the destination's land use type is industrial: 1=Yes, 0=No"
+LAND_USE_TYP_RECREATIONAL,"Whether the destination's land use type is recreational: 1=Yes, 0=No"
+LAND_USE_TYP_RESIDENTIAL,"Whether the destination's land use type is residential: 1=Yes, 0=No"
+LAND_USE_TYP_VACANT/LAND,"Whether the destination's land use type is vacant land: 1=Yes, 0=No"
+LUMBER_CNT,"Whether order contains lumber product (SKU): 1=Yes, 0=No"
+MILLWORK_CNT,"Whether order contains millwork product (SKU): 1=Yes, 0=No"
+NON_MERCHANDISE_CNT,"Whether order contains non-merchandise product (SKU): 1=Yes, 0=No"
+NUM_RSCHDL,Number of reschedules for the delivery to the this destination
+ORDER_NOTES_CNT,Number of notes about historical deliveries to this destination
+PAINT_CNT,"Whether order contains paint product (SKU): 1=Yes, 0=No"
+PALLET,Number of pallets in the delivery
+PLUMBING_CNT,"Whether order contains plumbing product (SKU): 1=Yes, 0=No"
+QTY,Number of products items in the delivery
+SERVICE_TYPE_OUTSIDE DELIVERY,"Whether the service type is to deliver to outside of the destination: 1=Yes, 0=No"
+SERVICE_TYPE_THRESHOLD,"Whether the service type is to deliver to inside of the destination: 1=Yes, 0=No"
+TAT_DAYS,Total number of days from the date when the order was placed to the scheduled delivery date
+VEHICLE_TYPE_FLAT,"Whether the delivery vehicl type is flatbed truck: 1=Yes, 0=No"
+WEIGHT,Total weight in pound of the products in the delivery
+WORK_ORD_TOTAL,Total sales amount for the products contained in the delivery
+WTHR_CATEGORY_CLEAR,"Whether the forecast whether of the destination area is clear: 1=Yes, 0=No"
+WTHR_CATEGORY_CLOUDY,"Whether the forecast whether of the destination area is cloudy: 1=Yes, 0=No"
+WTHR_CATEGORY_RAINY,"Whether the forecast whether of the destination area is rainy: 1=Yes, 0=No"
+WTHR_CATEGORY_THUNDERSTORM,"Whether the forecast whether of the destination area is thunderstorm: 1=Yes, 0=No"

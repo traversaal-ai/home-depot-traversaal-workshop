@@ -1,0 +1,44 @@
+﻿Column,Type,Description
+DATA_ID,Integer,Unique row ID
+MARKET,String,Metropolitan market name
+SCHEDULED_DELIVERY_DATE,Date,Scheduled delivery date
+DELIVERY_CREATE_DATE,Date,Delivery task (AKA work order) creation date
+VEHICLE_TYPE,String,Type of delivery vehicle
+CUSTOMER_ORDER_NUMBER,String,ID of customer order which can contain multiple product items and can be split into multiple delivery tasks (work orders)
+WORK_ORDER_NUMBER,String,"ID of delivery task, AKA work order, which is a set of product items ordered by customer and delivered to a destination address"
+SPECIAL_ORDER,Boolean,"Whether the delivery comes from special order by customers, True=Yes, False=No"
+FLOC,Integer,ID of the facility where the delivery ships from 
+FLOC_TYPE,String,FDC: flatbed (truck) distribution center; STORE: store
+SERVICE_TYPE,String,Outside Delivery: deliver to outside of destination building. Threshold: deliver to inside of the building.
+UNATTENDED_FLAG,Boolean,"Whether the delivery requires recepient to be present at the destination address: True=Yes, False=No"
+WINDOW_START,Time,Starting time of the delivery time window
+WINDOW_END,Time,Ending tie of the delivery time window
+QUANTITY,Float,Quantity of the items in the delivery
+VOLUME_CUBEFT,Float,Volume in cubic foot of the delivery
+WEIGHT,Float,Weight in pount of the delivery
+PALLET,Float,Quantity of the occupied pallet of the delivery
+FLOC_DELIVERY_ATTEMPTS_LAST_15_DAYS,Integer,Number of delivery attempts from this FDC facility in the past 15 days
+FLOC_OTC_FAILURES_LAST_15_DAYS,Integer,Number of failed delivery attempts from this FDC facility in the past 15 days
+FLOC_OTC_FAILURE_PCT_LAST_15_DAYS,Float,Percentage of failed attempts among total delivery attempts from this FDC facility in the last 15 days
+SKU_DESCRIPTION,String,Description of the product SKU
+DLVRY_RISK_DECILE,Integer,"Decile number of the delivery failure risk for the delivery, #1 means the highest failure risk, #10 means the lowest failure risk"
+DLVRY_RISK_BUCKET,String,Delivery failure risk bucket
+DLVRY_RISK_PERCENTILE,Integer,"Percentile number of the delivey failure risk for the delivery, larger percentile number means higher failure risk"
+DLVRY_RISK_TOP_FEATURE,String,Top 3 features that contribute to the delivery failure risk score predicted by the model
+CUSTOMER_NOTES,String,Original instructions given by customer regarding this delivery
+CUSTOMER_NOTES_LLM_SUMMARY,String,LLM summary of the instructions given by customer regarding this delivery
+HISTORIC_NOTES_LLM_SUMMARY,String,"LLM summary of the historic notes by customers, drivers, or THD associated regarding deliveries to this destination"
+CUSTOMER_NOTES_KEY_WORDS,String,Keywords summary from the customer instructions
+HISTORIC_NOTES_W_LABELS,String,Classify the instructions or notes by their intended recepients
+DESTINATION_ADDRESS,String,Destination address
+STREET_VIEW_URL,String,URL to the street view of the destination
+COMMERCIAL_ADDRESS_FLAG,Boolean,Whether the destinatino is a commercial address
+BUSINESS_HOURS,String,Business hours for commercial address
+STRT_VW_IMG_DSCRPTN,String,LLM description about the destination address based on Google street view and satellite view
+WTHR_CATEGORY,String,Forecast weather category for the destination area
+PRECIPITATION,String,Forecast precipitation in inches in the destination area
+CUSTOMER_NAME,String,Masked name of the customer receiving the delivery
+PRO_XTRA_MEMBER,Boolean,Whether the customer is a ProXtra member or not
+MANAGED_ACCOUNT,Boolean,Whether the customer has a managed account with THD (usually qualifies for special care for their order and delivery)
+OSR_NAME,Boolean,The (masked) name of the account manager for customers with managed account
+RI_GENERATE_DATETIME,Datetime,Report generation datetime
