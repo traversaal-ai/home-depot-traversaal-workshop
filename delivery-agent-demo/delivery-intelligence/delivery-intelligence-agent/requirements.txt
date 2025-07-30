@@ -1,0 +1,43 @@
+
+# AI & Agent Framework
+google-genai>=0.7.0
+google-adk>=1.0.0
+vertexai>=1.38.0
+
+# MCP Framework  
+mcp>=1.0.0
+fastmcp>=0.5.0
+
+# Google Cloud Services
+google-cloud-bigquery>=3.13.0
+google-cloud-storage>=2.10.0
+
+# Async & Concurrency
+asyncio
+aiohttp>=3.8.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# HTTP & API Clients  
+requests>=2.31.0
+httpx>=0.25.0
+
+# Logging & Monitoring
+loguru>=0.7.0
+structlog>=23.1.0
+
+# Environment Management
+python-dotenv>=1.0.0
+
+# Image Processing (for street view)
+Pillow>=10.0.0
+opencv-python>=4.8.0
+
+# Utilities
+pydantic>=2.4.0
+typing-extensions>=4.8.0
+
+#openai
+openai
