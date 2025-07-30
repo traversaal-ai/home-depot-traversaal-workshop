@@ -75,8 +75,7 @@ Data Masking
 - Uses Google DLP to redact sensitive information such as names, phone numbers, and credit card data
 
 ## Architecture Overview
-![a2a_mcp](https://github.com/user-attachments/assets/f1c212c5-4a88-4799-a957-e11e2fa1110d)
-
+![a2a_mcp-ezgif com-optimize](https://github.com/user-attachments/assets/d9666bf9-e6d8-403a-a248-5569cce4795d)
 
 ## Workflow
 <img width="4976" height="3368" alt="diagram" src="https://github.com/user-attachments/assets/fae6e794-8716-44c1-86f1-d49518b88099" />
