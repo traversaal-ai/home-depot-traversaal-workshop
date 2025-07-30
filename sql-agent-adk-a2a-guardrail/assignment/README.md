@@ -27,15 +27,16 @@ You will:
 
 ### 2. ⚙️ Edit the Code (if needed)
 
-- Update variables in the file `test_client.py` :
+- Update variables in the file `test_client.py` and `test_server.py`:
   ```python
   PROJECT_ID = "traversaal-research"
   DATASET_ID = "walmart_sales"
   TABLE_ID = "sales"
   ```
 
-- Update the Instruction of `sql_agent` in the file `test_client.py`.
-- Update the Tool descriptions of MCP server in the file `test_server.py`.
+- Update the MCP Client Tools of `sql_agent` in the file `test_client.py`.
+- Update the Instruction of `sql_agent` in the file `test_client.py` for your dataset columns.
+- Update the MCP Server Tool descriptions in the file `test_server.py`.
 
 ---
 
