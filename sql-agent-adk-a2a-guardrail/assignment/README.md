@@ -1,5 +1,5 @@
 
-# 🛒 MCP Assignment: BigQuery + CSV Upload + Secure Querying with Agents
+# MCP Assignment: BigQuery + CSV Upload + Secure Querying with Agents
 
 Welcome to your first hands-on assignment using **MCP Server**, **BigQuery**, and **Gemini Agents**. In this assignment, you'll upload a grocery sales CSV file to BigQuery and use a multi-agent pipeline to query and analyze the data securely.
 
@@ -23,21 +23,19 @@ You will:
 - Upload your `.csv` file (e.g., `grocery_sales.csv`) to the BigQuery table.
 - Replace the current table `traversaal-research.walmart_sales.sales`.
 
-> 💡 **Hint:** Use the "Create Table" UI in BigQuery and match schema types:  
-> `Store: INTEGER`, `Dept: INTEGER`, `Date: DATE`, `Weekly_Sales: FLOAT`, `IsHoliday: BOOLEAN`
-
 ---
 
 ### 2. ⚙️ Edit the Code (if needed)
 
-- The file `test_client.py` is already set to point to the correct table:
+- Update variables in the file `test_client.py` :
   ```python
   PROJECT_ID = "traversaal-research"
   DATASET_ID = "walmart_sales"
   TABLE_ID = "sales"
   ```
 
-- If you renamed your dataset or table, update the values above.
+- Update the Instruction of `sql_agent` in the file `test_client.py`.
+- Update the Tool descriptions of MCP server in the file `test_server.py`.
 
 ---
 
@@ -59,29 +57,19 @@ python test_client.py
 
 Try entering any of the following:
 
-- `What is the average weekly sales for Dept 1 in Store 1?`
-- `Which store had the highest sales during holidays?`
-- `Show sales trends over time for Department 5.`
+- `Which 3 products had the highest average unit price?`
+- `On which date was the total sales amount the lowest?`
+- `What is the difference in total revenue between Chicken and Rice?`
+- `How many distinct products sold more than 200 units?`
+- `Which product ranks third in total revenue?`
 
 ---
 
 ## 🧠 Hints & Tips
 
 - 🛡 **Judge Agent** will block unsafe prompts. If your query gets blocked, simplify or rephrase it.
-- 🧑‍💻 The SQL Agent is smart — but **be specific** and refer to the column names: `Store`, `Dept`, `Date`, `Weekly_Sales`, `IsHoliday`.
+- 🧑‍💻 The SQL Agent is smart — but **be specific** and refer to the grocery column names.
 - 🔐 **Masking Agent** will anonymize potentially sensitive info — good for learning privacy best practices.
-
----
-
-## 🧼 Cleanup (Optional)
-
-If you’d like to delete your uploaded table after the assignment:
-
-```sql
-DROP TABLE `traversaal-research.walmart_sales.sales`
-```
-
-> ⚠️ Be careful! This will permanently delete the table.
 
 ---
 
