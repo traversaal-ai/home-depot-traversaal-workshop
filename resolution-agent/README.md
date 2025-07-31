@@ -3,7 +3,6 @@
 This repository provides an end-to-end workflow to build and test an AI-powered **Home Depot Resolution Agent**.  
 It processes transcripts, builds a **RAG (Retrieval Augmented Generation)** database using Qdrant, and enables interactive testing of the assistant.
 
----
 
 ## Steps to Run
 
