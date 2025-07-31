@@ -1,0 +1,13 @@
+Step1: Requirements.txt
+
+Step2: llm-as-judge.py # It will analyze transcripts and make JSON in data folder
+
+Step3: json_split.py # It will flat the JSON
+
+Step4: rag.ipynb: RAG Database # It will be anchor based Vector Database with name qdrant_db - MAKE SURE TO SHUTDOWN THE KERNEL
+
+You will get qdrant_db folder, if you have that folder, you can skip step 2,3,4
+
+Step5: create.py # Configure Env Variables
+
+Step6: test_client.py

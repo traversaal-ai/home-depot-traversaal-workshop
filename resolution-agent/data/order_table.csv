@@ -1,0 +1,14 @@
+customer_id,customer_name,order_number,order_date,quantity,total_sale,sku_price,sku_name,sku_id,delivery_type,status,pickup_person
+IH9FPX5VI75SS6ZJ6V,Zachary Ashley,WJ79717186,4/16/2025,1,1407.24,1407.24,Dishwasher - Built-in Stainless Steel,SKU-6LSA529J,Store,Delivered,Robert
+MVLYDG3GVZDQX8LX1B,Kathy Willis,WJ54954381,6/20/2025,1,99,99,Hammer - 16oz Steel Claw,SKU-3IT906P8,Store,Delivered,William
+ESPN8HE0FAHETXEXWR,Carlos Miller MD,WJ97353857,2/12/2025,1,3649,3649,Air Conditioner - 1.5 Ton Split AC,SKU-S97PENI9,Store,Delivered,Rania
+D73N9S9R350YGMRIRG,Becky Howard,WJ87182871,1/4/2025,1,49.94,49.94,Power Drill - Cordless 20V Lithium-Ion,SKU-GFYB69MH,Home,Delivered,Roselle
+DM3VEVUH5UDO4BO2WU,Andrew Jones,WJ22667310,2/27/2025,1,3649,3649,Air Conditioner - 1.5 Ton Split AC,SKU-S97PENI9,Home,Delivered,Benjamin
+5FUF61RKON3HI1PS3T,Joseph Krause,WJ72532189,4/26/2025,1,1407.24,1407.24,Dishwasher - Built-in Stainless Steel,SKU-6LSA529J,Home,Delivered,Natalie
+2R7Q8NIU6N0FY8CBMR,Joel Wheeler,WJ47937124,5/21/2025,1,198.44,198.44,Ceiling Fan - 52-inch with Remote,SKU-JXIZ80B3,Home,Delivered,Natasha
+7SQ9ZD1TEPJRPKNAFR,Christopher Johnson,WJ92290454,1/31/2025,1,699,699,Lawn Mower - Gas Powered 21-inch,SKU-QRY4PYU5,Home,Delivered,John
+AMMQJ2I0WTM94Z3KYR,Kayla Hansen,WJ21091082,7/26/2025,1,49.94,49.94,Power Drill - Cordless 20V Lithium-Ion,SKU-GFYB69MH,Store,Pending,David
+6BIJUK5OHNXL1HLBQ0,Maria Stark,WJ02866195,7/26/2025,1,199.99,199.99,Circular Saw - 7-1/4 inch 15 Amp,SKU-JAZ91ZWW,Home,Pending,Robert
+YUTL633MK9F12TGC9E,Adam Rodriguez,WJ99620725,7/26/2025,1,49.94,49.94,Power Drill - Cordless 20V Lithium-Ion,SKU-GFYB69MH,Home,Pending,William
+CCTAN90TXULCA5TXPB,Dana Johnson,WJ86348285,7/25/2025,1,198.44,198.44,Ceiling Fan - 52-inch with Remote,SKU-JXIZ80B3,Store,Pending,Rania
+1CDCG4I93305R47ZBF,Stephanie Moore,WJ55645415,7/25/2025,1,699,699,Lawn Mower - Gas Powered 21-inch,SKU-QRY4PYU5,Home,Pending,David
