@@ -55,7 +55,7 @@ user_context = get_customer_context(USER_ID)
 
 # Memory setup
 if USE_MEMORY:
-    m0_client = MemoryClient(api_key="m0-1C2ma9BUxVA5Y9AHGAKcXJBWWmCnWP34WBAWVglz")
+    m0_client = MemoryClient(api_key="MEM0_API_KEY")
     try:
         all_memories = m0_client.get_all(user_id=USER_ID)
         memory_context = "\n".join([f"- {m['memory']}" for m in all_memories]) if all_memories else "No previous context."
