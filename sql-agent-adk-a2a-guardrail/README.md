@@ -78,7 +78,7 @@ Data Masking
 ![a2a_mcp-ezgif com-optimize](https://github.com/user-attachments/assets/d9666bf9-e6d8-403a-a248-5569cce4795d)
 
 ## Workflow
-<img width="4976" height="3368" alt="diagram" src="https://github.com/user-attachments/assets/fae6e794-8716-44c1-86f1-d49518b88099" />
+![sql](https://github.com/user-attachments/assets/75c1d8ff-cfac-4cd3-bc5b-e7063585ecc2)
 
 
 ## File Structure
