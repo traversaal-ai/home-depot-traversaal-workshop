@@ -107,7 +107,8 @@ def generate_case_card(
             "destination": customer.get("DESTINATION_ADDRESS"),
             "vehicle_type": order.get("VEHICLE_TYPE"),
             "weight": f"{order.get('WEIGHT', 0)} lbs",
-            "special_instructions": customer.get("CUSTOMER_NOTES", "None")
+            "special_instructions": customer.get("CUSTOMER_NOTES", "None"),
+            "products": order_data.get("products", [])
         },
         
         "risk_analysis": {
