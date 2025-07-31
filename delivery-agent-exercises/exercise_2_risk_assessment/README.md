@@ -26,12 +26,14 @@ A risk assessment pipeline that:
 4. Uses MCP to integrate weather service
 5. Aggregates risks into actionable insights
 
-## Key Patterns
+## Learning Outcomes
 
-- External model integration
-- Model Context Protocol (MCP) usage
-- Parallel risk assessment
-- Structured JSON output for downstream use
+By completing this exercise, you will be able to:
+- Integrate external AI models to enhance agent capabilities with specialized intelligence
+- Implement Model Context Protocol (MCP) to connect agents with external services like weather APIs
+- Design and execute parallel risk assessment workflows for multi-factor analysis
+- Structure agent outputs as JSON for seamless integration with downstream systems
+- Aggregate multiple risk factors into actionable insights for decision-making
 
 ## MCP Integration
 

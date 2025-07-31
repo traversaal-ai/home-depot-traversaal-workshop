@@ -15,12 +15,14 @@ A data orchestration pipeline that:
 3. Collects product details
 4. Assembles everything into structured JSON output
 
-## Key Patterns
+## Learning Outcomes
 
-- Sequential agent orchestration
-- Parallel agent execution
-- Custom tool creation for sub-agents
-- Data passing between agents using `output_key`
+By completing this exercise, you will be able to:
+- Build orchestrated data collection pipelines using multiple ADK agents
+- Implement sequential agent workflows for step-by-step data processing
+- Execute agents in parallel to optimize data fetching from multiple sources
+- Create custom tools that enable sub-agents to perform specialized tasks
+- Pass data between agents using the `output_key` pattern for seamless integration
 
 ## Output
 

@@ -37,14 +37,14 @@ This integrated system:
 - Ensures consistent, policy-compliant communications
 - Provides proactive solutions before problems occur
 
-## Key Output
+## Learning Outcomes
 
-The system produces a comprehensive **Delivery Case Card** containing:
-- Priority score and risk level
-- Ready-to-send messages
-- Specific carrier instructions
-- Alternative solutions
-- Quick actions for GOAs
+By completing this exercise, you will be able to:
+- Integrate all previous pipeline components into a unified delivery intelligence system
+- Orchestrate complex multi-agent workflows that solve real business problems
+- Create comprehensive case cards that provide GOAs with actionable intelligence
+- Measure and demonstrate the business impact of AI agent systems
+- Deploy end-to-end AI pipelines that reduce manual processing time by 90%+
 
 ## Running the Pipeline
 

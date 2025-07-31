@@ -17,13 +17,14 @@ A product intelligence system that:
 4. Calculates priority scores (0-100)
 5. Generates intelligent insights
 
-## Key Features
+## Learning Outcomes
 
-- Weather sensitivity detection (lumber, drywall, etc.)
-- Vehicle capacity validation
-- Access restriction analysis
-- Priority scoring algorithm
-- Actionable insights generation
+By completing this exercise, you will be able to:
+- Build AI agents that analyze product characteristics from SKU descriptions
+- Implement weather sensitivity detection for products like lumber and drywall
+- Validate vehicle-destination compatibility using intelligent matching algorithms
+- Design and calculate priority scoring systems (0-100 scale) based on multiple factors
+- Generate actionable insights that combine data from multiple previous pipeline stages
 
 ## Data Integration
 

@@ -10,12 +10,13 @@ This introductory exercise covers the fundamentals of Google's Agent Development
   - Tool usage
   - Sessions and runners
 
-## Key Concepts
+## Learning Outcomes
 
-- Understanding agents as autonomous units
-- Creating and using tools
-- Managing sessions for state persistence
-- Running agents with the Runner class
+By completing this exercise, you will be able to:
+- Understand how agents function as autonomous AI-powered units in Google ADK
+- Create custom tools that enable agents to interact with external systems
+- Implement sessions to maintain conversation context and state persistence
+- Execute agents using the Runner class and manage their lifecycle
 
 ## Prerequisites
 

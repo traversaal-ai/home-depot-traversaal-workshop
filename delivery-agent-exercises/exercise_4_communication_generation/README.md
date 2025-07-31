@@ -18,13 +18,14 @@ A communication system that:
 4. Ensures compliance with company policies
 5. Provides clear action plans
 
-## Key Features
+## Learning Outcomes
 
-- Template-based message generation
-- Automatic policy compliance checking
-- PRO vs standard customer differentiation
-- Alternative solution generation
-- SMS-friendly message formatting
+By completing this exercise, you will be able to:
+- Create AI agents that generate policy-compliant customer communications
+- Implement template-based message generation with dynamic content insertion
+- Build automatic policy compliance checking to ensure all messages meet company standards
+- Differentiate communication strategies between PRO and standard customers
+- Generate alternative delivery solutions and format messages for SMS constraints
 
 ## Business Impact
 
